@@ -48,8 +48,8 @@ vim.api.nvim_set_keymap("n","<S-Tab>",":bprevious<CR>",{noremap = true})
 vim.api.nvim_set_keymap("n","<Leader>dm",":delmarks a-zA-Z0-9<CR>",{noremap = true})
 
 -- Go to last character of the line
-vim.api.nvim_set_keymap("n","1","$",{noremap = true})
-vim.api.nvim_set_keymap("v","1","$",{noremap = true})
+vim.api.nvim_set_keymap("n","H","$",{noremap = true})
+vim.api.nvim_set_keymap("v","H","$",{noremap = true})
 
 -- Move lines selected at visual mode
 -- Move lines down
@@ -78,6 +78,3 @@ vim.api.nvim_set_keymap("n","<C-k>","10<C-y>",{noremap = true})
 -- CocExplorer
 -- vim.api.nvim_set_keymap("n","<Leader>e",":CocCommand explorer<CR>",{noremap = true})
 -- vim.api.nvim_set_keymap("n","<Leader>p",":CocCommand explorer --preset floating<CR>",{noremap = true})
-
--- NERDTree
--- vim.api.nvim_set_keymap("n","<Leader><Tab>",":NERDTreeToggle<CR>",{noremap = true})
