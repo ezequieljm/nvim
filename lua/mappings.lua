@@ -71,8 +71,6 @@ vim.api.nvim_set_keymap("n","nl",":nohl<CR>",{noremap = true})
 -- Close current buffer
 vim.api.nvim_set_keymap("n","<Leader>b",":bd<CR>",{noremap = true})
 
-
-
 -- Faster Scrolling
 vim.api.nvim_set_keymap("n","<C-j>","10<C-e>",{noremap = true})
 vim.api.nvim_set_keymap("n","<C-k>","10<C-y>",{noremap = true})
@@ -81,5 +79,5 @@ vim.api.nvim_set_keymap("n","<C-k>","10<C-y>",{noremap = true})
 -- MAPPINGS FOR PLUGINS
 ------------------------------------------------------------------------------------------------------------------------
 -- CocExplorer
-vim.api.nvim_set_keymap("n","<Leader>e",":CocCommand explorer<CR>",{noremap = true})
-vim.api.nvim_set_keymap("n","<Leader>p",":CocCommand explorer --preset floating<CR>",{noremap = true})
+-- vim.api.nvim_set_keymap("n","<Leader>e",":CocCommand explorer<CR>",{noremap = true})
+-- vim.api.nvim_set_keymap("n","<Leader>p",":CocCommand explorer --preset floating<CR>",{noremap = true})
