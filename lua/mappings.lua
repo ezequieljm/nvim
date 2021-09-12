@@ -65,9 +65,6 @@ vim.api.nvim_set_keymap("v",">",">gv",{noremap = true})
 -- Nohighlight
 vim.api.nvim_set_keymap("n","nl",":nohl<CR>",{noremap = true})
 
--- NERDTree
--- vim.api.nvim_set_keymap("n","<Leader><Tab>",":NERDTreeToggle<CR>",{noremap = true})
-
 -- Close current buffer
 vim.api.nvim_set_keymap("n","<Leader>b",":bd<CR>",{noremap = true})
 
@@ -81,3 +78,6 @@ vim.api.nvim_set_keymap("n","<C-k>","10<C-y>",{noremap = true})
 -- CocExplorer
 -- vim.api.nvim_set_keymap("n","<Leader>e",":CocCommand explorer<CR>",{noremap = true})
 -- vim.api.nvim_set_keymap("n","<Leader>p",":CocCommand explorer --preset floating<CR>",{noremap = true})
+
+-- NERDTree
+-- vim.api.nvim_set_keymap("n","<Leader><Tab>",":NERDTreeToggle<CR>",{noremap = true})
