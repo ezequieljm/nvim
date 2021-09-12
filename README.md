@@ -1,1 +1,1 @@
-# nvim
+# Neovim Setup for linux in lua
