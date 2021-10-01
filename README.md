@@ -15,6 +15,6 @@ $ git clone https://github.com/ezequieljm/nvim.git
 ### 3. Run install.sh
 You must enable execute permissions for the install.sh file with the command.
 ```bash
-$ chmod +x install.sh ; ./install.sh
+$ chmod +x nvim-install.sh ; ./nvim-install.sh
 ```
 this will install all plugins and configure basic usage.
